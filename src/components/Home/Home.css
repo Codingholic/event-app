@@ -1,0 +1,45 @@
+.HomePage {
+    /* height: 92vh; */
+    width: 100%;
+    /* background-color: blanchedalmond; */
+}
+
+.card_parent{
+    display: flex;
+    height: 75%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    align-items: center;
+}
+.List_Container{
+    height: 25%;
+    width: 100%;
+    /* background-color: rgb(15, 32, 158); */
+}
+.table_container{
+    height: 93%;
+    display: flex;
+    width: 52%;
+    margin-left: 20px;
+    background-color: #2d3748;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 44px;
+    align-items: center;
+    justify-content: center;
+}
+.Events_container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    height: 93%;
+    border-radius: 44px;
+    margin-left: 34px;
+    width: 17%;
+    background-color: #2d3748;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.Events_container::-webkit-scrollbar {
+    display: none;
+  }
+  
